@@ -7,7 +7,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
 // Icon imports
-import { SiJavascript, SiTypescript, SiPython, SiDotnet, SiPostgresql } from "react-icons/si";
+import { SiJavascript, SiTypescript, SiPython, SiDotnet, SiPostgresql, SiTailwindcss } from "react-icons/si";
 import { FaHtml5, FaCss3Alt, FaJava, FaReact, FaArrowRight } from "react-icons/fa";
 import Csharp from "../assets/csharp.png";
 import Cplusplus from "../assets/cplusplus.png";
@@ -449,6 +449,16 @@ function Home() {
                         className="surface-surface"
                         />
 
+                        <SiTailwindcss
+                        size={50}
+                        className="surface-surface"
+                        />
+
+                        <SiTypescript
+                        size={50}
+                        className="surface-surface"
+                        />
+
                         <FaHtml5
                         size={60}
                         className="surface-surface"
@@ -463,11 +473,6 @@ function Home() {
                         size={50}
                         className="surface-surface"
                         />
-
-                        <SiTypescript
-                        size={50}
-                        className="surface-surface"
-                        />
                     </div>
 
                     <div className="
@@ -476,14 +481,14 @@ function Home() {
                         gap-[25px]
                         lg:gap-[50px]
                     ">
-                        <SiPython
-                        size={50}
-                        className="surface-surface"
-                        />
-
                         <img 
                             src={Csharp}
                             style={{ width: "50px", height: "50px" }} 
+                        />
+                        
+                        <SiPython
+                        size={50}
+                        className="surface-surface"
                         />
 
                         <FaJava
