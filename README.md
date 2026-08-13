@@ -1,4 +1,4 @@
-# https://hbubante.github.io/Portfolio/
+# https://hbubante.github.io/
 
 ## made w/
 - react

@@ -9,7 +9,7 @@ import ProjectPASIL from "./pages/ProjectPASIL";
 
 function App() {
     return (
-        <BrowserRouter basename="/Portfolio">
+        <BrowserRouter>
             <Routes>
                 <Route
                     path="/"
