@@ -15,6 +15,7 @@ import C from "../assets/c.png";
 
 // Image imports
 import previewBTrNPMS from "../assets/projects_preview/btrnpms1.png";
+import previewCadence from "../assets/projects_preview/cadence1.png";
 import previewSteamStats from "../assets/projects_preview/steamstats1.png";
 import previewAppointMed from "../assets/projects_preview/appointmed1.png";
 import previewAdKnow from "../assets/projects_preview/adknow1.png";
@@ -556,6 +557,77 @@ function Home() {
                     lg:grid-cols-2
                     gap-[50px]
                 ">
+                    <motion.div
+                        initial="rest"
+                        whileHover="hover"
+                        animate="rest"
+                        className="
+                            relative
+                            overflow-hidden
+                            w-[375px]
+                            sm:w-[425px]
+                            md:w-[475px]
+                            xl:w-[550px]
+                            h-[300px]
+                            rounded-[15px]
+                            cursor-pointer
+                        "
+                        onClick={() => navigate("/projects/cadence")}
+                    >
+                        <motion.img 
+                            src={previewCadence}
+                            variants={imageVariants}
+                            transition={{
+                                duration: 0.3,
+                                ease: "easeOut",
+                            }}
+                            className="
+                                absolute
+                                inset-0
+                                h-full
+                                w-full
+                                object-cover
+                        "/>
+
+                        <div className="
+                            absolute
+                            -inset-1
+                            rounded-xl
+                            bg-gradient-to-b
+                            from-transparent
+                            to-black
+                            opacity-75
+                        ">
+                        </div>
+
+                        <motion.div 
+                            variants={contentVariants}
+                            className="
+                                flex
+                                flex-row
+                                justify-between
+                                items-center
+                                absolute
+                                bottom-[50px]
+                                left-[50px]
+                                right-[50px]
+                                z-10
+                        ">
+                            <p className="
+                                text-[20px]
+                                font-[600]
+                                text-text
+                            ">
+                                Cadence
+                            </p>
+                            
+                            <FaArrowRight
+                                size={25}
+                                className="surface-surface"
+                            />
+                        </motion.div>
+                    </motion.div>
+
                     <motion.div
                         initial="rest"
                         whileHover="hover"

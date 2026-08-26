@@ -6,6 +6,7 @@ import BTrNPMS from "./pages/BTrNPMS";
 import AppointMed from "./pages/AppointMed";
 import AdKnow from "./pages/AdKnow";
 import ProjectPASIL from "./pages/ProjectPASIL";
+import Cadence from "./pages/Cadence";
 
 function App() {
     return (
@@ -17,13 +18,18 @@ function App() {
                 />
 
                 <Route
-                    path="/projects/steamstats"
-                    element={<SteamStats />}
+                    path="/projects/cadence"
+                    element={<Cadence />}
                 />
 
                 <Route
                     path="/projects/btrnpms"
                     element={<BTrNPMS />}
+                />
+
+                <Route
+                    path="/projects/steamstats"
+                    element={<SteamStats />}
                 />
 
                 <Route
