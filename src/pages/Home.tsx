@@ -377,7 +377,7 @@ function Home() {
                         font-[400]
                         text-text
                     ">
-                        I am a Computer Science graduate focusing on full-stack development and currently specializing in React and .NET, among other technologies. I have hands-on experience with systems development through internship, academic, and technical projects.
+                        I am a Computer Science graduate focusing on full-stack development and currently specializing in React and .NET, while also exploring other technologies. I have hands-on experience with systems development through internship, academic, and technical projects.
                     </p>
 
                     <div className="
