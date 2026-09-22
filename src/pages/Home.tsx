@@ -484,7 +484,10 @@ function Home() {
                     ">
                         <img 
                             src={Csharp}
-                            style={{ width: "50px", height: "50px" }} 
+                            style={{ width: "50px", height: "50px" }}
+                            // For preventing dragging/right-clicking of logo image
+                            draggable="false"
+                            onContextMenu={(e) => e.preventDefault()}
                         />
                         
                         <SiPython
@@ -500,11 +503,17 @@ function Home() {
                         <img 
                             src={Cplusplus}
                             style={{ width: "50px", height: "50px" }} 
+                            // For preventing dragging/right-clicking of logo image
+                            draggable="false"
+                            onContextMenu={(e) => e.preventDefault()}
                         />
 
                         <img 
                             src={C}
-                            style={{ width: "50px", height: "50px" }} 
+                            style={{ width: "50px", height: "50px" }}
+                            // For preventing dragging/right-clicking of logo image
+                            draggable="false"
+                            onContextMenu={(e) => e.preventDefault()}
                         />
                     </div>
 

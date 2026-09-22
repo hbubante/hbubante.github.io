@@ -294,7 +294,10 @@ function Cadence() {
 
                                 <img 
                                     src={Csharp}
-                                    style={{ width: "50px", height: "50px" }} 
+                                    style={{ width: "50px", height: "50px" }}
+                                    // For preventing dragging/right-clicking of logo image
+                                    draggable="false"
+                                    onContextMenu={(e) => e.preventDefault()}
                                 />
 
                                 <SiDotnet

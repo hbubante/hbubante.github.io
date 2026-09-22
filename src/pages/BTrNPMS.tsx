@@ -280,17 +280,26 @@ function BTrNPMS() {
                             ">
                                 <img 
                                     src={PowerApps}
-                                    style={{ width: "50px", height: "50px" }} 
+                                    style={{ width: "50px", height: "50px" }}
+                                    // For preventing dragging/right-clicking of logo image
+                                    draggable="false"
+                                    onContextMenu={(e) => e.preventDefault()}
                                 />
 
                                 <img 
                                     src={Dataverse}
-                                    style={{ width: "50px", height: "50px" }} 
+                                    style={{ width: "50px", height: "50px" }}
+                                    // For preventing dragging/right-clicking of logo image
+                                    draggable="false"
+                                    onContextMenu={(e) => e.preventDefault()}
                                 />
 
                                 <img 
                                     src={SharePoint}
-                                    style={{ width: "50px", height: "50px" }} 
+                                    style={{ width: "50px", height: "50px" }}
+                                    // For preventing dragging/right-clicking of logo image
+                                    draggable="false"
+                                    onContextMenu={(e) => e.preventDefault()}
                                 />
                             </div>
                         </div>
